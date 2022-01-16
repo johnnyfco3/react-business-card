@@ -34,18 +34,64 @@
 .info button {
   margin: 0 20px;
   padding: 12px 30px;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 .info button:hover {
   cursor: pointer;
 }
+.info .linked:hover {
+  box-shadow: 0 0 2.5px 2.5px rgb(64, 64, 252);
+}
+.info .email:hover {
+  box-shadow: 0 0 2.5px 2.5px rgb(255, 255, 255);
+}
+.info button span {
+  margin-right: 8px;
+  font-size: 20px;
+}
 .info .email {
   padding: 13px 40px;
   border: none;
+  background-color: white;
 }
 .info .linked {
   background: rgb(52, 98, 248);
   color: white;
   border: none;
+}
+.about {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+}
+.about h1 {
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+.about p {
+  max-width: 600px;
+  line-height: 1.5;
+}
+.interests {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+}
+.interests h1 {
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+.interests p {
+  max-width: 600px;
+  line-height: 1.5;
+}
+footer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 60px;
+  color: gray;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
